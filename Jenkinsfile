@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'master, url: 'https://github.com/Chelshiyaa/FoodDel.git'
+                git branch: 'master', url: 'https://github.com/Chelshiyaa/FoodDel.git'
             }
         }
 
