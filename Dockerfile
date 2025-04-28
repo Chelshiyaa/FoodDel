@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 # Remove default nginx files
-RUN rm -rf /usr/share/nginx/html/*
+
 
 # Copy static files
 COPY index.html /usr/share/nginx/html/
